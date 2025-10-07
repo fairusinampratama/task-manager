@@ -42,7 +42,7 @@ function TaskForm({ onAddTask }) {
     // Added a subtle animation for the form appearing
     <form
       onSubmit={handleSubmit}
-      className="bg-white p-6 rounded-xl shadow-lg mb-8 transition-all animate-fadeIn"
+      className="bg-white p-6 rounded-xl shadow-lg mb-8 animate-[fadeIn_0.5s_ease-in-out]"
     >
       <h2 className="text-xl font-bold mb-5 text-slate-700">Add a New Task</h2>
 
