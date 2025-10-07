@@ -1,16 +1,65 @@
-# React + Vite
+# Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikasi web "Task Manager" yang sederhana dan modern, dibangun menggunakan **React** dan **Tailwind CSS**. Proyek ini dibuat sebagai bagian dari _take‑home test_ untuk posisi **Junior Web Developer**. Aplikasi ini memenuhi semua persyaratan wajib dan juga mengimplementasikan semua fitur opsional (nilai tambah) yang disarankan.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✅ Fitur Aplikasi
 
-## React Compiler
+- **Tambah Tugas**: Form untuk menambahkan tugas baru lengkap dengan judul dan deskripsi singkat.
+- **Lihat Daftar Tugas**: Menampilkan semua tugas dalam bentuk kartu yang informatif.
+- **Ubah Status Tugas**: Tombol untuk mengubah status tugas antara "Selesai" dan "Belum Selesai".
+- **Hapus Tugas**: Fungsi untuk menghapus tugas dari daftar secara permanen.
+- **Penyimpanan Data (Nilai Tambah)**: Tugas disimpan di LocalStorage browser, sehingga data tidak akan hilang saat halaman dimuat ulang.
+- **Filter Tugas (Nilai Tambah)**: Pengguna dapat memfilter daftar tugas untuk menampilkan "Semua", "Belum Selesai (Pending)", atau "Selesai (Completed)".
+- **Desain Responsif (Nilai Tambah)**: Tampilan aplikasi sepenuhnya responsif dan dapat digunakan dengan nyaman di perangkat mobile maupun desktop.
+- **Interaksi Tanpa Reload (Nilai Tambah)**: Semua aksi (tambah, ubah status, hapus) terjadi secara instan tanpa perlu memuat ulang halaman.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧰 Teknologi yang Digunakan
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend Framework:** React (diinisialisasi dengan Vite)
+- **Styling:** Tailwind CSS
+- **State Management:** React Hooks (`useState`, `useEffect`)
+- **Penyimpanan:** LocalStorage Browser API
+
+---
+
+## ⚙️ Cara Menjalankan Proyek Secara Lokal
+
+1. **Clone repository:**
+
+```bash
+git clone https://github.com/fairusinampratama/task-manager.git
+```
+
+2. **Masuk ke direktori proyek:**
+
+```bash
+cd task-manager
+```
+
+3. **Install dependency:**
+
+```bash
+npm install
+```
+
+4. **Jalankan development server:**
+
+```bash
+npm run dev
+```
+
+5. **Buka browser dan akses:**
+
+```
+http://localhost:5173
+```
+
+---
+
+## 👨‍💻 Dibuat oleh
+
+**fairusinampratama**
